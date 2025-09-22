@@ -1,7 +1,7 @@
 # Taller-1---Ciencia-de-Datos
 
 ## Integrantes del Equipo:
-Felipe Nuñez - 
+Felipe Nuñez - 202021673
 Juan Manuel Pérez - 202021827
 
 ## Objetivo
