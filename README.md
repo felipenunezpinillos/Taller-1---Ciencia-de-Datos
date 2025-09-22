@@ -12,6 +12,37 @@ El análisis se realizará a partir del dataset proporcionado, que contiene info
 
 ## Conclusiones (insights)
 
+## 1. Cancelación por tipo de hotel
+- **City Hotel**: ~70% de cancelaciones.  
+- **Resort Hotel**: ~28% de cancelaciones.  
+-  **Acción**: aplicar políticas de **depósito más estrictas** en City Hotel, controlar **cupos en OTAs**, e incentivar reservas confirmadas con **descuentos o fidelización**.
+
+## 2. Incumplimiento en asignación de habitación
+- El incumplimiento en la asignación (cuando no se entrega el cuarto reservado) **no incrementa significativamente la cancelación**.  
+-  **Acción**: mantener protocolos de **compensación** (upgrades, desayunos) y monitorear **satisfacción/NPS** en estos casos.
+
+## 3. City Hotel – cancelación por tipo de habitación
+- Alta cancelación en la mayoría de las habitaciones, excepto en **B y K** (baja cancelación).  
+-  **Acción**: promover **upgrades hacia B/K** en baja demanda y revisar **pricing/stock** en los tipos con mayor riesgo.
+
+## 4. Resort Hotel – cancelación distribuida
+- Cancelación más repartida; destacan **A, G, H, P y L** con mayor riesgo.  
+-  **Acción**: auditar estos tipos de habitación, ajustar **tarifas/depósitos** y revisar **cupos por canal**.
+
+## 5. Estacionalidad – City Hotel
+- Mayor demanda: **agosto, septiembre, octubre**.  
+- Baja demanda: **enero, febrero, noviembre, diciembre**.  
+- ➡**Acción**: implementar **eventos temáticos** (Navidad, fin de año) y **promociones especiales** en meses débiles.
+
+## 6. Estacionalidad – Resort Hotel
+- Mayor demanda: **meses de verano**.  
+- Baja demanda: **noviembre, diciembre, enero**.  
+- **Acción**: reforzar **actividades para familias y grupos** en temporada baja.
+
+## 7. Influencia del Lead Time
+- Las reservas con **mayor anticipación** muestran una **probabilidad más alta de cancelación**.  
+- **Acción**: definir **políticas de depósito según tramos de lead time** (ej. >90 días = depósito parcial, >180 días = no reembolsable con beneficio).
+
 ## Instrucciones de ejecución y dependencias.
  - pandas
 - numpy
