@@ -13,3 +13,13 @@ El análisis se realizará a partir del dataset proporcionado, que contiene info
 ## Conclusiones (insights)
 
 ## Instrucciones de ejecución y dependencias.
+ - pandas
+- numpy
+- matplotlib
+- scipy
+- statsmodels
+- ydata-profiling
+
+También necesitas el entorno de notebooks:
+
+jupyterlab (o notebook)
